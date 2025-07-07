@@ -1,0 +1,27 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "This is a restaurant app.",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkumar1109/namasteReact.git"
+  },
+  "author": "Raja Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkumar1109/namasteReact/issues"
+  },
+  "homepage": "https://github.com/rkumar1109/namasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2"
+  }
+}
