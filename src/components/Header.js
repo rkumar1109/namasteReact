@@ -1,6 +1,6 @@
 import { LOGO_URL } from "../utils/constants";
 import { useState } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [btnNameReact, setBtnNameReact] = useState("Login");
@@ -23,7 +23,7 @@ const Header = () => {
             <Link to="/contact">Contact Us</Link>
           </li>
           <li>
-            <Link>Cart</Link>
+            <Link to="/">Cart</Link>
           </li>
           <button
             className="login"

@@ -83,6 +83,13 @@
   justify-content: center;
 }
 
+.restaurant-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .filter {
   display: flex;
 }
